@@ -1,0 +1,67 @@
+{ "state": "loaded", 
+  "pets": [
+    {
+      "id": 0,
+      "category": "Dog",
+      "name": "Bella",
+      "photoUrls": [
+        "/Dog_Breeds.jpg"
+      ],
+      "status": "available"
+    },
+    {
+      "id": 1,
+      "category": "Dog",
+      "name": "Lucky",
+      "photoUrls": [
+        "/dog.jpg"
+      ],
+      "status": "sold"
+    },
+    {
+      "id": 2,
+      "category": "Dog",
+      "name": "Topsi",
+      "photoUrls": [
+        "/dog-topsi.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "category":"Cat",
+      "name": "Leo",
+      "photoUrls": [
+        "/cat-01.jpeg"
+      ],
+      "status": "available"
+    },
+    {
+      "id": 4,
+      "category": "Cat",
+      "name": "Felix",
+      "photoUrls": [
+        "/cat-02.jpg"
+      ],
+      "status": "available"
+    },
+    {
+      "id": 5,
+      "category": "Cat",
+      "name": "Chanel",
+      "photoUrls": [
+        "/cat-03.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": 6,
+      "category": "Rabbit",
+      "name": "Kropka",
+      "photoUrls": [
+        "/rabbit.jpg"
+      ],
+      "status": "sold"
+    }
+  ]
+}

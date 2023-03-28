@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table is loaded renders table 1`] = `
+<div
+  className="mx-auto md:px-8 max-w-[1440px]"
+>
+  <header
+    className="bg-blue-700 h-20 flex"
+  >
+    <h1
+      className=" px-4 text-white font-bold mx-4"
+      role="heading"
+    >
+      PetStore
+    </h1>
+    <div
+      className="flex bg-blue-700 h-20 items-center gap-4"
+    >
+      <a
+        className="text-white text-xl  font-bold "
+        href="/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onTouchStart={[Function]}
+      >
+        Home
+      </a>
+      <a
+        className="text-white text-xl font-bold"
+        href="/pet"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onTouchStart={[Function]}
+      >
+        Pet
+      </a>
+    </div>
+  </header>
+  <div>
+    <h2
+      className="font-bold text-blue-700"
+    >
+      Pets
+    </h2>
+    <table
+      className="table-fixed text-center"
+    >
+      <thead>
+        <tr
+          className="text-white bg-blue-700 h-8"
+        >
+          <th>
+            Photo
+          </th>
+          <th>
+            Pet Name
+          </th>
+          <th>
+            Category
+          </th>
+          <th>
+            Status
+          </th>
+          <th>
+            Actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td
+            width={200}
+          >
+            <img
+              alt="Leo"
+              className="pr-4"
+              src="/cat-01.jpeg"
+            />
+          </td>
+          <td>
+            Leo
+          </td>
+          <td>
+            Cat
+          </td>
+          <td>
+            available
+          </td>
+          <td
+            width={300}
+          >
+            <button
+              onClick={[Function]}
+            >
+              delete 
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
